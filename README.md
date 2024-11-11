@@ -21,3 +21,5 @@ docker build -t test .
 # Run the docker container
 docker run -p 5000:5000
 ```
+
+### You can then create a github action and publish a docker container to use in Kubernetes
