@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World! - new version'
+    return 'This is a testing branch for developing'
 
 if __name__ == '__main__':
     app.run(debug=True)
